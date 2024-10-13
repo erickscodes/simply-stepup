@@ -1,12 +1,17 @@
 export const navItems = [
   {
     label: "simplify",
-    href: "#",
+    href: "/simplify",
     link: "",
   },
   {
-    label: "notecards",
-    href: "#",
+    label: "create notecards",
+    href: "/notecards",
+    link: "",
+  },
+  {
+    label: "saved",
+    href: "/saved",
     link: "",
   },
 ];

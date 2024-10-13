@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans as FontSans } from "next/font/google";
 
 import "./globals.css";
+<<<<<<< HEAD
 import { Provider } from "./provider";
 // import Navbar from "@/components/Navbar";
+=======
+import Navbar from "@/components/Navbar";
+>>>>>>> 3f5793c (implement navbar, simplify page)
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -28,7 +32,11 @@ export default function RootLayout({
       <body
         className={`min-h-screen font-sans antialiased ${fontSans.variable}`}
       >
+<<<<<<< HEAD
         {/* <Navbar /> */}
+=======
+        <Navbar />
+>>>>>>> 3f5793c (implement navbar, simplify page)
         {children}
       </body>
       </Provider>
