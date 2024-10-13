@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.2",
@@ -33,13 +34,20 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
+=======
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.15"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+>>>>>>> parent of 94cdc99 (initialize project with nextjs and shadcn)
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15"
   }
 }
